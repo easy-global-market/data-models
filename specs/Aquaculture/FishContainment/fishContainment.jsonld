@@ -1,0 +1,161 @@
+{
+   "id":"urn:ngsi-ld:FishContainment:0012",
+   "type":"FishContainment",
+   "depth":{
+      "type":"Property",
+      "value":100,
+      "unitCode":"MTR"
+   },
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "fishNumber":{
+      "type":"Property",
+      "value":"100",
+      "unitCode" : "E50",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object":"urn:ngsi-ld:Sensor:FishCounter01"
+      }
+   },
+   "deadFishes":{
+      "type":"Property",
+      "value":"50",
+      "unitCode" : "E50",
+      "removed":{
+         "type":"Property",
+         "value":"yes",
+         "executedBy":{
+            "type":"Relationship",
+            "object":"urn:ngsi-ldMortalityRemovalOperation:01"}
+      },
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object":"urn:ngsi-ld:Sensor:DeadFishCounter01"
+      }
+   },
+   "temperature":{
+      "type":"Property",
+      "value":22.2,
+		"unitCode" : "CEL",
+     	"observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         		"type":"Relationship",
+         		"object":"urn:ngsi-ld:Sensor:HCMR-AQUABOX1temperature"}  },
+
+   "dissolvedOxygen": {
+      "type": "Property",
+      "value": 89.8,
+      "unitCode": "P1",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1dissolvedOxygen"
+      }
+    },
+
+    "dissolvedOxygenMG": {
+      "type": "Property",
+      "value": 5.88,
+      "unitCode": "M1",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1dissolvedOxygenMG"
+      }
+    },
+    "conductivity": {
+      "type": "Property",
+      "value": 64715,
+      "unitCode": "H61",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1conductivity"
+      }
+    },
+    "salinity": {
+      "type": "Property",
+      "value": 41.39,
+      "unitCode": "GL",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1Salinity"
+      }
+    },
+    "pH": {
+      "type": "Property",
+      "value": 2.66,
+      "unitCode":"C62",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1PH"
+      }
+    },
+    "pHmV": {
+      "type": "Property",
+      "value": 220.5,
+      "unitCode": "VLT",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1PHmV"
+      }
+    },
+    "redoxPotential": {
+      "type": "Property",
+      "value": 95.1,
+      "unitCode": "VLT",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1RedoxPotential"
+      }
+    },
+    "turbidity": {
+      "type": "Property",
+      "value": 0,
+      "unitCode": "NTU",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1Turbidity"
+      }
+    },
+
+   "operationSpace":{
+      "type":"GeoProperty",
+      "value":{
+         "type":"Polygon",
+         "coordinates":[
+            [
+               100.0,
+               0.0
+            ],
+            [
+               101.0,
+               0.0
+            ],
+            [
+               101.0,
+               1.0
+            ],
+            [
+               100.0,
+               1.0
+            ],
+            [
+               100.0,
+               0.0
+            ]
+         ]
+      }
+   },
+   "@context":[
+      "https://gist.githubusercontent.com/bobeal/292f6ddf453bf3c427fb7206a2b5638a/raw/ba8f8e027e91d65176a316bede3a9781e918b86a/aquac.jsonld",
+      "https://gist.githubusercontent.com/bobeal/4a836c81b837673b12e9db9916b1cd35/raw/6c7b234b76f86eb66ece385bc93c3f139f8e8cad/egm.jsonld",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}
