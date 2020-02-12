@@ -1,14 +1,14 @@
 {
-   "id":"urn:ngsi-ld:Device:AquaboxSXJ10", 
+   "id":"urn:ngsi-ld:Device:AquaboxSXJ10",
    "type":"Device",
    "createdAt":"2018-10-26T21:32:52+02:00",
    "brandName":{
       "type":"Property",
-      "value":"OXY" 
+      "value":"OXY"
    },
    "monitors":{
       "type":"Relationship",
-      "object":"urn:ngsi-ld:FishContainment:0012"
+      "object":"urn:ngsi-ld:SeaWeedContainment:01"
    },
    "calibrationDate":{
      "type":"Property",
