@@ -1,14 +1,18 @@
 {
-   "id":"urn:ngsi-ld:Device:SmartCamera01", 
+   "id":"urn:ngsi-ld:Device:HCMR-AQUABOX1", 
    "type":"Device",
    "createdAt":"2018-10-26T21:32:52+02:00",
    "brandName":{
       "type":"Property",
-      "value":"SE" 
+      "value":"Bioceanor" 
    },
    "monitors":{
       "type":"Relationship",
       "object":"urn:ngsi-ld:FishContainment:0012"
+   },
+   "calibrationDate":{
+     "type":"Property",
+     "value":"2020-01-13T10:00:00+02:00"
    },
    "location":{
       "type":"GeoProperty",
