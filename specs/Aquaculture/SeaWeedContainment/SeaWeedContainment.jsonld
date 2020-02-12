@@ -10,11 +10,11 @@
    "temperature":{
       "type":"Property",
       "value":7.58,
-		"unitCode" : "CEL",
+		  "unitCode" : "CEL",
      	"observedAt":"2020-01-16T13:44:38.000Z",
       "observedBy":{
          		"type":"Relationship",
-         		"object":"urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"} 
+         		"object":"urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"}
    },
    "voltage": {
       "type": "Property",

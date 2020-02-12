@@ -8,17 +8,17 @@
          "type":"Property",
          "value": "http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/page/c_6756"}
    },
-   "Size":{
+   "size":{
       "type":"Property",
       "unitCode":"MTR",
       "value":0.05
    },
-   "Age":{
+   "age":{
       "type":"Property",
       "unitCode":"DAY",
       "value":3
    },
-   "Number":{
+   "number":{
       "type":"Property",
       "value":200,
       "unitCode":"E50"
