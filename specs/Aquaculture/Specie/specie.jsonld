@@ -1,7 +1,7 @@
 {
    "id":"urn:ngsi-ld:Specie:021XA",
    "type":"Specie",
-   "Name":{
+   "name":{
       "type":"Property",
       "value":"salmon",
       "skos:exactMatch":{
