@@ -5,26 +5,26 @@
       "type":"Property",
       "value":20,
       "unitCode":"MTR"
-	},
-	"createdAt":"2018-10-26T21:32:52+02:00",
-	"temperature":{
-		"type":"Property",
-		"value":7.58,
-		"unitCode" : "CEL",
-		"observedAt":"2020-01-16T13:44:38.000Z",
-		"observedBy":{
-			"type":"Relationship",
-			"object":"urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"}
-	},
-	"voltage": {
-		"type": "Property",
-		"value": 10.82,
-		"unitCode": "VLT",
-		"observedAt": "2020-01-16T13:44:38.000Z",
-		"observedBy": {
-			"type": "Relationship",
-			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Voltage"
-		}
+   },
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "temperature":{
+      "type":"Property",
+      "value":7.58,
+		  "unitCode" : "CEL",
+     	"observedAt":"2020-01-16T13:44:38.000Z",
+      "observedBy":{
+         		"type":"Relationship",
+         		"object":"urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"}
+   },
+   "voltage": {
+      "type": "Property",
+      "value": 10.82,
+      "unitCode": "VLT",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Voltage"
+      }
     },
 	"salinity": {
 		"type": "Property",
@@ -86,8 +86,8 @@
          ]
       }
    },
-	"@context":[
-		"https://schema.lab.fiware.org/ld/context",
-		"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   "@context":[
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
    ]
 }
