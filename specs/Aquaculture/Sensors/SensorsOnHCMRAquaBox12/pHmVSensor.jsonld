@@ -1,0 +1,16 @@
+{
+    "id": "urn:ngsi-ld:Sensor:HCMR-AQUABOX1pHmV",
+    "type": "Sensor",
+    "deviceParameter": {
+      "type": "Property",
+      "value": "pHmV"
+    },
+    "connectsTo": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
+    },
+    "@context": [
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+  }

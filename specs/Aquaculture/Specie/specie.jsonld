@@ -1,0 +1,38 @@
+{
+   "id":"urn:ngsi-ld:Specie:021XA",
+   "type":"Specie",
+   "name":{
+      "type":"Property",
+      "value":"salmon",
+      "skos:exactMatch":{
+         "type":"Property",
+         "value": "http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/page/c_6756"}
+   },
+   "size":{
+      "type":"Property",
+      "unitCode":"MTR",
+      "value":0.05
+   },
+   "age":{
+      "type":"Property",
+      "unitCode":"DAY",
+      "value":3
+   },
+   "number":{
+      "type":"Property",
+      "value":200,
+      "unitCode":"E50"
+   },
+   "filledIn":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:FishContainment:0012",
+      "providedBy":{
+         "type":"Relationship",
+         "object":"urn:ngsi-ld:BreedingOperation:01"
+      }
+   },
+   "@context": [
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}

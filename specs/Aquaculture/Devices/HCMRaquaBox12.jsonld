@@ -1,0 +1,31 @@
+{
+   "id":"urn:ngsi-ld:Device:HCMR-AQUABOX1", 
+   "type":"Device",
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "brandName":{
+      "type":"Property",
+      "value":"Bioceanor" 
+   },
+   "monitors":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:FishContainment:0012"
+   },
+   "calibrationDate":{
+     "type":"Property",
+     "value":"2020-01-13T10:00:00+02:00"
+   },
+   "location":{
+      "type":"GeoProperty",
+      "value":{
+         "type":"point",
+         "coordinates":[
+            -8.5,
+            41.2
+         ]
+      }
+   },
+   "@context":[
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}

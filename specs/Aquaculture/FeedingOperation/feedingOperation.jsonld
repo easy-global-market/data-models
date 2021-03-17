@@ -1,0 +1,39 @@
+{
+   "id":"urn:ngsi-ld:FeedingOperation:01", 
+   "type":"FeedingOperation",
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "foodQuantity":{
+      "type":"Property",
+      "unitCode":"KGM",
+      "value":100
+   },
+   "target":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:FishContainment:0012"
+   },
+  "foodName":{
+      "type":"Property",
+      "value":"dietary fibres",
+      "skos:exactMatch":{
+         "type":"Property",
+         "value": "http://aims.fao.org/aos/agrovoc/c_28386"}
+   },
+   "executedBy":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:Feeder:01"
+   },
+   "location":{
+      "type":"GeoProperty",
+      "value":{
+         "type":"Point",
+         "coordinates":[
+            -8.5,
+            41.2
+         ]
+      }
+   },
+   "@context":[
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}

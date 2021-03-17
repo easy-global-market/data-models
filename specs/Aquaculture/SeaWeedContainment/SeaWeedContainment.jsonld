@@ -1,0 +1,93 @@
+{
+   "id":"urn:ngsi-ld:SeaWeedContainment:01",
+   "type":"SeaWeedContainment",
+   "depth":{
+      "type":"Property",
+      "value":20,
+      "unitCode":"MTR"
+   },
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "temperature":{
+      "type":"Property",
+      "value":7.58,
+		  "unitCode" : "CEL",
+     	"observedAt":"2020-01-16T13:44:38.000Z",
+      "observedBy":{
+         		"type":"Relationship",
+         		"object":"urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"}
+   },
+   "voltage": {
+      "type": "Property",
+      "value": 10.82,
+      "unitCode": "VLT",
+      "observedAt": "2020-01-16T13:44:38.000Z",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Voltage"
+      }
+    },
+	"salinity": {
+		"type": "Property",
+		"value": 2.77,
+		"unitCode": "GL",
+		"observedAt": "2020-01-16T13:44:38.000Z",
+		"observedBy": {
+			"type": "Relationship",
+			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Salinity"
+		}
+	},
+	"TDS": {
+		"type": "Property",
+		"value": 0,
+		"unitCode":"M1",
+		"observedAt": "2020-01-16T13:44:38.000Z",
+		"observedBy": {
+			"type": "Relationship",
+			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10TDS"
+		}
+	},
+	"ChlorophyllFluorescence": {
+		"type": "Property",
+		"value": 0.01,
+		"unitCode": "NFU",
+		"observedAt": "2020-01-16T13:44:38.000Z",
+		"observedBy": {
+			"type": "Relationship",
+			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10ChlorophyllFluorescence"
+		}
+    },
+	"ChlorophyllConcentration": {
+		"type": "Property",
+		"value": 0.12,
+		"unitCode": "H29",
+		"observedAt": "2020-01-16T13:44:38.000Z",
+		"observedBy": {
+			"type": "Relationship",
+			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10ChlorophyllConcentration"
+		}
+	},
+	"turbidity": {
+		"type": "Property",
+		"value": 17.96,
+		"unitCode": "NTU",
+		"observedAt": "2020-01-16T13:44:38.000Z",
+		"observedBy": {
+			"type": "Relationship",
+			"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Turbidity"
+		}
+	},
+	"location":{
+		"type":"GeoProperty",
+		"value":{
+			"type":"Point",
+			"coordinates":[
+			-8.5,
+            41.2
+         ]
+      }
+   },
+   "@context":[
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}

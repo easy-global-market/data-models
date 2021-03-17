@@ -1,0 +1,27 @@
+{
+   "id":"urn:ngsi-ld:Feeder:01", 
+   "type":"Feeder",
+   "createdAt":"2018-10-26T21:32:52+02:00",
+   "brandName":{
+      "type":"Property",
+      "value":"AquaSE" 
+   },
+   "connectsTo":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:FishContainment:0012"
+   },
+   "location":{
+      "type":"GeoProperty",
+      "value":{
+         "type":"point",
+         "coordinates":[
+            -8.5,
+            41.2
+         ]
+      }
+   },
+   "@context":[
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}

@@ -1,0 +1,8 @@
+E50	accounting unit	A unit of count defining the number of accounting units.
+M1	milligram per litre
+GL	gram per litre
+The UN/CEFACT Common Code ‘C62‘ stands for "no unit".
+H61	millisiemens per centimetre
+MTR metre
+
+microgram per litre  H29

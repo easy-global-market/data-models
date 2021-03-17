@@ -1,0 +1,16 @@
+ {
+    "id": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Salinity",
+    "type": "Sensor",
+    "deviceParameter": {
+      "type": "Property",
+      "value": "salinity"
+    },
+    "connectsTo": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:AquaboxSXJ10"
+    },
+    "@context": [
+      "https://schema.lab.fiware.org/ld/context",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+  }
